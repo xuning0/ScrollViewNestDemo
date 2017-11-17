@@ -9,6 +9,7 @@
 #import "MainTableViewController.h"
 #import "PlanAViewController.h"
 #import "PlanCViewController.h"
+#import "PlanDViewController.h"
 
 @interface MainTableViewController ()
 
@@ -27,7 +28,7 @@
 }
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -45,6 +46,9 @@
             break;
         case 2:
             cell.textLabel.text = @"UIPanGestureRecognizer+UIDynamicAnimator自己管理滚动事件\n\n【简书目前的方案】";
+            break;
+        case 3:
+            cell.textLabel.text = @"tableView的header透明，webView放在底部，其offset随着tablevView而变";
             break;
         default:
             break;
@@ -65,6 +69,11 @@
             break;
         case 2: {
             PlanCViewController *vc = [[PlanCViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 3: {
+            PlanDViewController *vc = [[PlanDViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
