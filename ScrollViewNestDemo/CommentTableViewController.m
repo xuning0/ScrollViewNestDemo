@@ -39,10 +39,4 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    if (self.tableDidScrollBlock) {
-        self.tableDidScrollBlock(scrollView.contentOffset);
-    }
-}
-
 @end

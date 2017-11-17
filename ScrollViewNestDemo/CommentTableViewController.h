@@ -10,6 +10,4 @@
 
 @interface CommentTableViewController : UITableViewController
 
-@property (nonatomic, copy) void(^tableDidScrollBlock)(CGPoint contentOffset);
-
 @end
