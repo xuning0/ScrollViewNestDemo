@@ -20,6 +20,8 @@
 		798C17FA1FB85AA600B94182 /* 2.html in Resources */ = {isa = PBXBuildFile; fileRef = 798C17F91FB85AA600B94182 /* 2.html */; };
 		798C17FD1FB88E0800B94182 /* UIScrollView+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C17FC1FB88E0800B94182 /* UIScrollView+Demo.m */; };
 		798C18001FB88EF300B94182 /* DynamicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C17FF1FB88EF300B94182 /* DynamicItem.m */; };
+		9D1F0BEB1FBF1644006217A9 /* PlanDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F0BE91FBF1643006217A9 /* PlanDViewController.m */; };
+		9D1F0BEE1FBF1662006217A9 /* PlanDTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F0BED1FBF1662006217A9 /* PlanDTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,10 @@
 		798C17FC1FB88E0800B94182 /* UIScrollView+Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Demo.m"; sourceTree = "<group>"; };
 		798C17FE1FB88EF300B94182 /* DynamicItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicItem.h; sourceTree = "<group>"; };
 		798C17FF1FB88EF300B94182 /* DynamicItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicItem.m; sourceTree = "<group>"; };
+		9D1F0BE91FBF1643006217A9 /* PlanDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanDViewController.m; sourceTree = "<group>"; };
+		9D1F0BEA1FBF1643006217A9 /* PlanDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanDViewController.h; sourceTree = "<group>"; };
+		9D1F0BEC1FBF1662006217A9 /* PlanDTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanDTableController.h; sourceTree = "<group>"; };
+		9D1F0BED1FBF1662006217A9 /* PlanDTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanDTableController.m; sourceTree = "<group>"; };
 		E5C3874A39EA41EDE1AD56FC /* libPods-ScrollViewNestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollViewNestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D2E4AC60FF81B0ECE300E4 /* Pods-ScrollViewNestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewNestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollViewNestDemo/Pods-ScrollViewNestDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +115,10 @@
 				798C17F71FB843C100B94182 /* PlanCViewController.m */,
 				798C17EA1FB813E600B94182 /* CommentTableViewController.h */,
 				798C17EB1FB813E600B94182 /* CommentTableViewController.m */,
+				9D1F0BEA1FBF1643006217A9 /* PlanDViewController.h */,
+				9D1F0BE91FBF1643006217A9 /* PlanDViewController.m */,
+				9D1F0BEC1FBF1662006217A9 /* PlanDTableController.h */,
+				9D1F0BED1FBF1662006217A9 /* PlanDTableController.m */,
 				798C17FB1FB88E0800B94182 /* UIScrollView+Demo.h */,
 				798C17FC1FB88E0800B94182 /* UIScrollView+Demo.m */,
 				798C17FE1FB88EF300B94182 /* DynamicItem.h */,
@@ -251,9 +261,11 @@
 			files = (
 				798C17DE1FB7F68800B94182 /* main.m in Sources */,
 				798C17FD1FB88E0800B94182 /* UIScrollView+Demo.m in Sources */,
+				9D1F0BEE1FBF1662006217A9 /* PlanDTableController.m in Sources */,
 				798C17D01FB7F68800B94182 /* AppDelegate.m in Sources */,
 				798C17E61FB7F70A00B94182 /* MainTableViewController.m in Sources */,
 				798C18001FB88EF300B94182 /* DynamicItem.m in Sources */,
+				9D1F0BEB1FBF1644006217A9 /* PlanDViewController.m in Sources */,
 				798C17E91FB8125900B94182 /* PlanAViewController.m in Sources */,
 				798C17EC1FB813E600B94182 /* CommentTableViewController.m in Sources */,
 				798C17F81FB843C100B94182 /* PlanCViewController.m in Sources */,
